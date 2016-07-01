@@ -1,0 +1,76 @@
+.btn-primary {
+  width: 100px;
+  background-color: #EEFFF3;
+  border: 2px #3B403D solid;
+  color: #3B403D;
+  position: relative;
+  bottom: 70px;
+  right: 13px;
+  font-family: raleway, san-serif;
+}
+.btn-primary:hover {
+  background-color: #3B403D;
+  color: #EEFFF3;
+}
+
+.btn-primary:focus {
+  background-color: #EEFFF3;
+  color: #3B403D;
+}
+
+.btn-default {
+  font-family: raleway, san-serif;
+}
+
+h1 {
+  font-family: raleway, san-serif;
+}
+
+#score {
+  position: relative;
+  bottom: 245px;
+  right: 13px;
+  color: #3B403D;
+  font-family: raleway, san-serif;
+}
+
+body {
+  background-color: #EEFFF3;
+}
+
+#buttons {
+  margin-top: 20px !important;
+}
+
+path:hover{
+  cursor: pointer;
+}
+
+.footer {
+  color: #3B403D;
+  background-color:#D6E5DB;
+  font-family: raleway, san-serif;
+  height: 40px;
+}
+
+h6 {
+  position: relative;
+  top: 5px;
+}
+
+.title {
+  color: #D6E5DB;
+  position: relative;
+  right: 15px;
+  font-family: raleway, san-serif;
+}
+
+.hard {
+  background-color: #3B403D !important;
+  color: #EEFFF3 !important;
+}
+
+.hard:hover {
+  background-color:#EEFFF3 !important;
+  color: #3B403D !important;
+}

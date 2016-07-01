@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Simon</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <audio id="blue-sound">
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3">
+</audio>
+<audio id="red-sound">
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3">
+</audio>
+<audio id="yellow-sound">
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3">
+</audio>
+<audio id="green-sound">
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3">
+</audio>
+
+<div class="modal fade" id="winModal" role="dialog" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h1 class="modal-title">You Win!</h1>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+        <div class="col-xs-6 text-center">
+        <button id="continue" type="button"
+                class="btn btn-default" data-dismiss="modal">Continue</button>
+        </div>
+        <div class="col-xs-6 text-center">
+        <button id="restart" type="button"
+                class="btn btn-default" data-dismiss="modal">Restart</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+
+  
+<div id="buttons" class="col-xs-12 container-fluid text-center">
+  <div class="title row">
+    <h1>Simon</h1>
+  </div>
+  <div class="row">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="400px" height="400px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+      <path id="blue" fill="#87A2B2" d="M204.601,224.201L204.601,224.201c0-16.127,13.073-29.2,29.199-29.201V56.2c-92.784,0-168,75.216-168,168
+        c0,0,0,0,0,0.001H204.601z"/>
+      <path id="red" fill="#FFC0C0" d="M263,224.201L263,224.201c0-16.127-13.073-29.2-29.199-29.201V56.2c92.783,0,168,75.216,168,168
+        c0,0,0,0,0,0.001H263z"/>
+      <path id="green" fill="#A2BFA8" d="M204.601,224.2L204.601,224.2c0,16.127,13.073,29.2,29.199,29.2v138.801c-92.784,0-168-75.217-168-168
+        c0,0,0,0,0-0.001H204.601z"/>
+      <path id="yellow" fill="#FFFFC1" d="M263,224.2L263,224.2c0,16.127-13.073,29.2-29.199,29.2v138.801c92.783,0,168-75.217,168-168
+        c0,0,0,0,0-0.001H263z"/>
+    </svg>
+    <h4 id="score">00</h4>
+  </div>
+  <div class="controls row">
+    <button id="start" class="btn btn-primary">Start</button>
+    <button id ="reset" class="btn btn-primary">Reset</button>
+    <button id="hard" class="btn btn-primary">Hard Mode</button>
+ 
+</div>
+<div class="col-xs-12 container-fluid footer"><h6>Page designed and built by Joe Anderson</h6></div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
